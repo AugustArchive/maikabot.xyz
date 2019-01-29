@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "es2015",
+        "lib": [
+            "es2015",
+            "es2016",
+            "esnext"
+        ],
+        "declaration": false,
+        "outDir": "./build",
+        "rootDir": "./src",
+        "strict": true,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true,
+        "paths": {
+            "~/*": ["./src/*"]
+        }
+    }
+}
